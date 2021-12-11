@@ -15,6 +15,10 @@ app.use(cors());
 app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
+app.get('/',(req,res) => {
+  res.send('It is Running !....');
+});
+
 const CONNECTION_URL =
   "mongodb+srv://mernstack:mernstack@mern-webapp.xarr4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
