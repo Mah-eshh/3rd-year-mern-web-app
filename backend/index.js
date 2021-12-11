@@ -16,7 +16,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
 const CONNECTION_URL =
-  "mongodb+srv://maheshblog:maheshblog@myblog.lh0fr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://mernstack:mernstack@mern-webapp.xarr4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 mongoose
